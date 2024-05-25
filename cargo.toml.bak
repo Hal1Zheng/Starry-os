@@ -1,29 +1,26 @@
 [patch."https://github.com/Starry-OS/arch_boot.git".arch_boot]
 path = "crates/arch_boot"
 
+[patch."https://github.com/Starry-OS/axalloc.git".axalloc]
+path = "crates/axalloc"
+
 [patch."https://github.com/Starry-OS/axhal.git".axhal]
 path = "crates/axhal"
+
+[patch."https://github.com/Starry-OS/axlog.git".axlog]
+path = "crates/axlog"
 
 [patch."https://github.com/Starry-OS/axmem.git".axmem]
 path = "crates/axmem"
 
-[patch."https://github.com/Starry-OS/axprocess.git".axprocess]
-path = "crates/axprocess"
-
 [patch."https://github.com/Starry-OS/axruntime.git".axruntime]
 path = "crates/axruntime"
 
-[patch."https://github.com/Starry-OS/axtask.git".axtask]
-path = "crates/axtask"
-
-[patch."https://github.com/Starry-OS/elf_parser.git".elf_parser]
-path = "crates/elf_parser"
+[patch."https://github.com/Starry-OS/axstarry.git".axstarry]
+path = "crates/axstarry"
 
 [patch."https://github.com/Starry-OS/linux_syscall_api.git".linux_syscall_api]
 path = "crates/linux_syscall_api"
-
-[patch."https://github.com/Starry-OS/taskctx.git".taskctx]
-path = "crates/taskctx"
 
 [profile.dev]
 lto = true

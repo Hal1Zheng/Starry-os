@@ -67,7 +67,7 @@ const OTHER_TESTCASES: &[&str] = &["./time-test"];
 
 #[allow(unused)]
 pub fn run_batch_testcases() {
-    let testcase_str = option_env!("MONOLITHIC_TESTCASE").unwrap_or("");
+    let testcase_str = option_env!("MONOLITHIC_TESTCASE").unwrap_or("busybox");
     let mut test_iter = match testcase_str {
         "busybox" => Box::new(BUSYBOX_TESTCASES.iter()),
         "libc" => Box::new(LIBC_TESTCASES.iter()),
